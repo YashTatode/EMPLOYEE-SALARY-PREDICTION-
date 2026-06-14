@@ -51,11 +51,11 @@ st.write(input_df)
 
 if st.button("Predict Salary Class"):
     prediction = model.predict(input_df)
-    st.success(f"✅ Prediction: {prediction[0]}")
+    st.success(f" Prediction: {prediction[0]}")
 
 # Batch prediction
 st.markdown("---")
-st.markdown("#### 📂 Batch Prediction")
+st.markdown("####  Batch Prediction")
 uploaded_file = st.file_uploader("Upload a CSV file for batch prediction", type="csv")
 
 if uploaded_file is not None:
