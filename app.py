@@ -7,7 +7,7 @@ model = joblib.load("Best_model.pkl")
 encoders = joblib.load("encoders.pkl")
 
 st.set_page_config(page_title="Employee Salary Prediction ", page_icon="💼", layout="centered")
-st.title("💼Welcome,Employee Salary Prediction sute")
+st.title("Welcome,Employee Salary Prediction sute")
 st.markdown("Predict whether an employee earns >50K or ≤50K based on input features.")
 
 st.sidebar.header("Input Employee Details")
